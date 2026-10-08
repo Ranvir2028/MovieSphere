@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Streamlit secrets (the theme file .streamlit/config.toml stays tracked)
+.streamlit/secrets.toml
+
+# Large generated files you can recreate with `python train.py`
+results/test_predictions.npz
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Word temp/lock files and local report builds
+~$*.docx
+*.tmp
